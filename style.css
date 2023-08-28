@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+ul {
+ list-style-type: none;
+ display: flex;
+ flex-wrap: wrap;
+
+}
+
+li {
+    border: solid 1px black ;
+    padding: 1rem;
+    width: calc(100%/3 - 2rem);
+    margin: 1rem;
+}
+
+li:hover {
+    background-color: dodgerblue;
+    transition-delay: 5sec;
+}
